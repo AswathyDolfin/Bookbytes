@@ -1,0 +1,26 @@
+
+.d1 {
+    text-align: center;
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 80px;
+    gap: 30px;
+  }
+  .d2{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  .d3 {
+    /* box-shadow: 6px 8px 10px 0 rgba(0, 0, 0, 0.2); */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 285.2px;
+    height: 400px;
+    }
+  
+    .d3:hover {
+      transform: scale(1.1)
+    }

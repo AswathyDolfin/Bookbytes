@@ -1,0 +1,22 @@
+.cb2{
+    
+text-align: center;
+}
+.cb1{
+    
+    width: 1100px;
+    margin-left: 200px;
+    margin-right: 100px;
+    box-shadow: 1px 1px px 0 rgba(0, 0, 0, 0.2);
+    height: 370px;
+}
+.cb3{
+    box-shadow: 8px 6px 5px 0 rgba(0, 0, 0, 0.2);
+    margin-left: 50px;
+}
+.cb4{
+    height: 100px;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: -200px;
+}

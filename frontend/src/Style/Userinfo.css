@@ -1,0 +1,69 @@
+.user-info {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-item h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  .user-item p {
+    font-size: 1rem;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .ban-btn {
+    background-color: #9E3668;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .ban-btn.unbanned {
+    background-color: #4caf50;
+  }
+  
+  .ban-btn:hover {
+    opacity: 0.8;
+  }
+  
+  .gobck {
+    background-color: #c60b65;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .gobck:hover {
+    opacity: 0.8;
+  }

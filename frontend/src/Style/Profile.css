@@ -1,0 +1,178 @@
+.profile {
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #007bff;
+  letter-spacing: 1px;
+}
+
+.profile-details {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-details h3 {
+  font-size: 24px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.profile-details .highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.profile-details label {
+  font-size: 18px;
+  color: #555;
+}
+
+.profile-details input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.profile-details button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.profile-details button:hover {
+  background-color: #0056b3;
+}
+
+.profile-tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.profile-tabs button {
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  background-color: #f1f1f1;
+  color: #555;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.profile-tabs button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.profile-cart,
+.profile-like,
+.profile-orders {
+  margin-top: 20px;
+}
+
+.profile-cart ul,
+.profile-like ul,
+.profile-orders ul {
+  display: flex;
+  /* Make the list items appear side by side */
+  flex-wrap: wrap;
+  /* Allow wrapping to a new line if there are too many items */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.profile-cart-item,
+.profile-like-item,
+.profile-orders-item {
+  padding: 15px;
+  margin: 10px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  width: calc(33.333% - 20px);
+  /* Allow three items per row with space in between */
+  box-sizing: border-box;
+}
+
+.profile-cart-item:hover,
+.profile-like-item:hover,
+.profile-orders-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-cart-item h5,
+.profile-like-item h5,
+.profile-orders-item h5 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.profile-cart-item h4,
+.profile-like-item h4,
+.profile-orders-item h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.profile-orders-item ul {
+  padding-left: 20px;
+}
+
+.profile-order-details li {
+  padding: 10px 0;
+}
+
+.profile-order-details p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.profile h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.profile p {
+  color: #666;
+  font-size: 16px;
+}
+
+.profile-cart-item,
+.profile-like-item,
+.profile-orders-item h4 {
+  font-size: 18px;
+  color: #555;
+}
